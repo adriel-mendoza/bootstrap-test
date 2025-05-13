@@ -23,7 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   site: 'https://adriel-mendoza.github.io/',
-  base: 'bootstrap-test',
+  base: '/bootstrap-test',
   output: 'static',
 
   integrations: [
